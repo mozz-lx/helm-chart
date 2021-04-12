@@ -1,0 +1,18 @@
+dependencies:
+- name: fluent-bit
+  repository: https://fluent.github.io/helm-charts
+  version: 0.11.0
+- name: kube-prometheus-stack
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 12.3.0
+- name: falco
+  repository: https://falcosecurity.github.io/charts
+  version: 1.5.7
+- name: metrics-server
+  repository: https://charts.bitnami.com/bitnami
+  version: 5.0.2
+- name: telegraf-operator
+  repository: https://helm.influxdata.com/
+  version: 1.1.5
+digest: sha256:6c9833bd3cda668c173818aa620e71c54de748ab7a24144f1f5699ee396ad26b
+generated: "2021-03-31T12:49:20.860888065Z"
