@@ -230,6 +230,8 @@ fluentd:
 
   ## Add custom labels to the following sumologic resources(fluentd sts, setup job, otelcol deployment) 
   serviceLabels: {}
+
+  pvcLabels: {}
   
   ## Add custom annotations to all fluentd sts pods(logs, metrics, events)
   podAnnotations: {}
